@@ -1,0 +1,15 @@
+---
+spring:
+  application:
+    name: order-lb
+    
+  cloud:
+     config:
+       uri: http://localhost:8080
+---
+#Select any available Port
+server:
+  port: 8006
+  
+    
+    

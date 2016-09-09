@@ -1,0 +1,10 @@
+zuul:
+  routes:
+   order_service:
+    path: /orderservice/**
+    serviceId: order-microservice
+   manufacturer_service:
+    path: /mfrsservice/**
+    serviceId: manufacturer-microservice
+  ignored-services: '*'
+    

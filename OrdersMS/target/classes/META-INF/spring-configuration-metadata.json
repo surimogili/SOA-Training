@@ -1,0 +1,9 @@
+{
+  "groups": [{
+    "name": "newConfig",
+    "type": "com.example.OrderAPI",
+    "sourceType": "com.example.OrderAPI"
+  }],
+  "properties": [],
+  "hints": []
+}
